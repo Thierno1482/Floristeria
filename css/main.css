@@ -1,0 +1,100 @@
+
+main{
+    
+position: absolute;
+top: 300px;
+margin: 0;
+padding:auto;
+margin: auto;
+width: 100%; 
+     height: 600px; 
+     border: 2px solid #555; 
+     background: #ccd66c;
+     -moz-border-radius: 100px 100px 0 0;
+     -webkit-border-radius: 100px 100px 0 0;
+     border-radius: 100px 100px 0 0;
+     object-fit: cover;
+     -webkit-filter: cover;
+     -webkit-mask-size:cover;
+     mask-size: cover;
+}
+
+
+ul.slider{
+     position: relative;
+     margin: auto;
+     width: 50%;
+     padding: auto;
+     height: 300px;
+     border: 2px solid red;
+     top: -22%;
+    
+
+}
+
+ul,li{
+     margin: 0;
+     padding: 0;
+     list-style: none;
+}   
+
+.footer{
+     position: absolute;
+     left: 6.39%;
+     right: 6.67%;
+     top: 59.84%;
+     bottom: 6.56%;
+     height: 500px;
+     background: linear-gradient(179.89deg, rgba(255, 255, 255, 0) 19.61%, rgba(255, 255, 255, 0.5) 99.91%);
+     box-shadow: inset 0px -18px 8px rgba(255, 255, 255, 0.25);
+     border-radius: 50px;   
+}
+section{
+display: flex;
+width: 100%;
+height: 50px;
+background: #91ce21;
+
+
+}
+
+     /* Ellipse 4 */
+
+     
+
+/*
+ul.slider li{
+position: absolute;
+top: 0;
+left: 0;
+opacity: 0;
+width: inherit;
+height: inherit;
+
+transition: opacity .5s;
+}
+ul.slider li img{
+     left: 0;
+     position: absolute;
+     overflow: hidden;
+     width: 100%;
+     left: 50%;
+     height: 300px;
+     object-fit: cover;
+     
+}
+ul.slider li:first-child{
+opacity: 1;
+}
+   /* .oval{*/
+   /* position: absolute;
+     width: 250px;
+     height: 100px;
+     -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+     border-radius: 50%;
+     background:white;
+     left:40% ;
+     top: 10%;
+     overflow:scroll;
+  /*  }*/
