@@ -9,27 +9,25 @@ margin: auto;
 width: 100%; 
      height: 600px; 
      border: 2px solid #555; 
-     background: #ccd66c;
-     -moz-border-radius: 100px 100px 0 0;
-     -webkit-border-radius: 100px 100px 0 0;
-     border-radius: 100px 100px 0 0;
-     object-fit: cover;
-     -webkit-filter: cover;
-     -webkit-mask-size:cover;
-     mask-size: cover;
+     background: #E3C065;
+    
+     border-radius: 20% 20% 0 0;
+    
 }
-
+#slide1{
+     position: absolute;
+     transform: translate(-50%, -50%);
+     left:50%;
+     top: -35%;
+}
 
 ul.slider{
      position: relative;
      margin: auto;
      width: 50%;
      padding: auto;
-     height: 300px;
-     border: 2px solid red;
-     top: -22%;
-    
-
+     height: 200px;
+     top:15%;
 }
 
 ul,li{
@@ -49,15 +47,124 @@ ul,li{
      box-shadow: inset 0px -18px 8px rgba(255, 255, 255, 0.25);
      border-radius: 50px;   
 }
-section{
-display: flex;
-width: 100%;
-height: 50px;
-background: #91ce21;
 
-
+aside{
+     display: grid;
+     grid-template-columns: 200px 200px;
+     border: 1px solid red;
+}
+.plato{
+     border-radius: 60%;
+     position: absolute;
+     box-shadow: 0px 10px  #FDF8E5;
+     background-color:  #FDF8E5;
+     height: 80px;
+     left: 13%;
+     min-width: 100px;
+     width: 70%;
+}
+.circilo-plato{
+     position: absolute;
+     border-radius: 100%;
+     background-color: white ;
+     height: 50px;
+     width: 10%;
+     left: 50%;
+     top: 70%;
+     min-width: 50px;
+     min-height: 50px;
+}
+.circilo-plato .version{
+     color:black;
+     text-align: center;
+     top: 15px;
+     position: absolute;
+     left: 30%;
+     font-size: 18px;
+     font-weight: bold;
+}
+.circilo-plato img{
+     position: absolute;
+     width: 35%;
+     right:2%;
+     border: none;
+     background: #E3C065;
+     
 }
 
+.buttones{
+
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     left: 65%;     
+}
+.circle{
+    
+     display: flex;
+     border:1px solid red;
+     border-radius: 100%;
+     margin: 10px;
+}
+.txt-aside{
+     position: absolute;
+     left: 40%;
+     
+    
+     
+}
+   .p1 {
+        position: absolute;
+    left: 20%;
+    font-size: 20px;
+     color: white;
+     
+}
+.p2{
+     Font-family: Roboto Condensed;
+     Font-style: Regular;
+     Font-size: 35px;
+    margin: 20px 0;
+     color: #385C0A;
+    
+     Vertical-align: Top;
+    
+}
+.precio{
+     position: absolute;
+     font-size: 35px;
+     color: #385C0A;
+     font-weight: bold;
+     left: 30%;
+}
+.txt-aside2{
+     width: 400px;
+     position:absolute;
+     top: 150px;
+     transform: translate(-20%, 10%);
+     border: 1px solid rgb(5, 5, 5);
+     margin: 25px;
+     padding: 5px;
+     font-size: 15px;
+     color: #385C0A;    
+}
+
+
+@media screen and(max-width:450px){
+
+  .circilo-plato{   width: 25%;
+     height: 90px;   
+     font-size: 15px;
+}
+.p1,
+.p2{
+     position: absolute;
+     right:0 ;
+     margin: 0;
+     
+}
+
+}
      /* Ellipse 4 */
 
      
