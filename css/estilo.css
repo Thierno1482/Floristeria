@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
    
@@ -8,11 +9,12 @@
     width: 100%;
     height: 600px;
     text-align: center;
+    max-width:1200px;
     
 }
 /*header*/
 .text{
-    font-family: 'Akaya Telivigala', cursive;
+    font-family:  'Beth Ellen', cursive;
     color: #527C1E;
 }
 .img-principal{

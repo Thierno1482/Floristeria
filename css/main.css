@@ -4,20 +4,19 @@ main{
 position: absolute;
 top: 300px;
 margin: 0;
-padding:auto;
-margin: auto;
+padding:0;
+
 width: 100%; 
      height: 600px; 
      border: 2px solid #555; 
      background: #E3C065;
-    
      border-radius: 20% 20% 0 0;
     
 }
 #slide1{
      position: absolute;
      transform: translate(-50%, -50%);
-     left:50%;
+     left:70%;
      top: -35%;
 }
 
@@ -42,7 +41,7 @@ ul,li{
      right: 6.67%;
      top: 59.84%;
      bottom: 6.56%;
-     height: 500px;
+     height: 400px;
      background: linear-gradient(179.89deg, rgba(255, 255, 255, 0) 19.61%, rgba(255, 255, 255, 0.5) 99.91%);
      box-shadow: inset 0px -18px 8px rgba(255, 255, 255, 0.25);
      border-radius: 50px;   
@@ -59,7 +58,7 @@ aside{
      box-shadow: 0px 10px  #FDF8E5;
      background-color:  #FDF8E5;
      height: 80px;
-     left: 13%;
+     left: 34%;
      min-width: 100px;
      width: 70%;
 }
@@ -69,7 +68,7 @@ aside{
      background-color: white ;
      height: 50px;
      width: 10%;
-     left: 50%;
+     left: 45%;
      top: 70%;
      min-width: 50px;
      min-height: 50px;
@@ -108,26 +107,27 @@ aside{
 }
 .txt-aside{
      position: absolute;
-     left: 40%;
-     
-    
-     
-}
+     left: 45%;
+         
+}  
    .p1 {
         position: absolute;
-    left: 20%;
+    left: 0%;
     font-size: 20px;
      color: white;
      
 }
-.p2{
+.p2 {
+    position:absolute
      Font-family: Roboto Condensed;
      Font-style: Regular;
      Font-size: 35px;
-    margin: 20px 0;
+     margin:20px 0;
+     top:-40px;
      color: #385C0A;
+  
+  margin-left:-70%;
     
-     Vertical-align: Top;
     
 }
 .precio{
@@ -135,36 +135,144 @@ aside{
      font-size: 35px;
      color: #385C0A;
      font-weight: bold;
-     left: 30%;
+     left: 6%;
 }
 .txt-aside2{
-     width: 400px;
-     position:absolute;
-     top: 150px;
-     transform: translate(-20%, 10%);
+     width: 100%;
+     height:1%;
+     display:inline-block;
+     transform: translate(-44%, 100%);
      border: 1px solid rgb(5, 5, 5);
-     margin: 25px;
-     padding: 5px;
      font-size: 15px;
-     color: #385C0A;    
-}
-
-
-@media screen and(max-width:450px){
-
-  .circilo-plato{   width: 25%;
-     height: 90px;   
-     font-size: 15px;
-}
-.p1,
-.p2{
-     position: absolute;
-     right:0 ;
-     margin: 0;
+     color: #385C0A;  
+     margin:30px;  
+     min-width:20%;
      
 }
 
+
+.carito-btn{
+     width:20%;
+ position:absolute;
+background: #7E9357;
+border-radius: 28px;
+height: 50px;
+top:20rem;
+left:0px;
+border:none;
+min-width:5%;
+
+
 }
+
+.footer-ultimo{
+     background:#7E9357 ;
+     position: relative;
+     width: 100%;
+     height: 20px;
+     top: 97%;
+
+}
+/*media quires*/
+
+@media screen and (max-width: 650px) {
+ .txt-aside2{
+     width: 90%;
+     height:2%
+     display:inline-block;
+     transform: translate(-40%, 100%);
+     border: 1px solid rgb(5, 5, 5);
+     font-size: 10px;
+     color: #385C0A;  
+     margin:0;  
+     margin-top:60px;
+     min-width:20%;
+     overflow:hidden;
+}
+.buttones{
+    
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     left: 80%;     
+}
+.precio{
+     position: absolute;
+     font-size: 20px;
+     color: #385C0A;
+     font-weight: bold;
+     left: 6%;
+}
+  .p2 {
+    position:absolute
+     Font-family: Roboto Condensed;
+     Font-size: 20px;
+     margin:20px 0;
+     top:-40px;
+     color: #385C0A;
+  left:-20px;
+  margin-left:-70%;
+       
+}
+.plato{
+     border-radius: 60%;
+     position: absolute;
+     box-shadow: 0px 10px  #FDF8E5;
+     background-color:  #FDF8E5;
+     height: 80px;
+     left: 18%;
+     min-width: 100px;
+     width: 70%;
+}
+#slide1{
+     position: absolute;
+     transform: translate(-50%, -50%);
+     left:55%;
+     top: -35%;
+}
+.carito-btn{
+     width:60%;
+ position:absolute;
+background: #7E9357;
+border-radius: 28px;
+height: 50px;
+
+left:0px;
+right.0px;
+transform:translate(-45%, 30%);
+padding:0 20px ;
+border:none;
+min-width:5%;
+
+
+}
+}  
+   .p1 {
+        position: absolute;
+    left: 0%;
+    font-size: 8px;
+     color: white;
+     
+}
+}
+
+ @media screen and (max-width: 450px){
+        .cicl
+     width:20%;
+     position: absolute;
+     display: flex;
+     flex-direction: column;
+     left: 80%;     
+}
+
+ }
+
+
+
+
+
+
+
      /* Ellipse 4 */
 
      
