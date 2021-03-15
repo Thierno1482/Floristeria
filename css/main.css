@@ -5,18 +5,16 @@ position: absolute;
 top: 300px;
 margin: 0;
 padding:0;
-
 width: 100%; 
-     height: 600px; 
-     border: 2px solid #555; 
-     background: #E3C065;
-     border-radius: 20% 20% 0 0;
+ height: 600px; 
+background: #E3C065;
+border-radius: 20% 20% 0 0;
     
 }
 #slide1{
      position: absolute;
      transform: translate(-50%, -50%);
-     left:70%;
+     left:50%;
      top: -35%;
 }
 
@@ -53,12 +51,14 @@ aside{
      border: 1px solid red;
 }
 .plato{
+     margin: auto;
      border-radius: 60%;
      position: absolute;
      box-shadow: 0px 10px  #FDF8E5;
      background-color:  #FDF8E5;
      height: 80px;
-     left: 34%;
+     left: 0;
+     right: 0;
      min-width: 100px;
      width: 70%;
 }
@@ -101,7 +101,7 @@ aside{
 .circle{
     
      display: flex;
-     border:1px solid red;
+     border: none;
      border-radius: 100%;
      margin: 10px;
 }
@@ -112,23 +112,20 @@ aside{
 }  
    .p1 {
         position: absolute;
-    left: 0%;
+
     font-size: 20px;
      color: white;
-     
+     word-spacing: 1px;
 }
 .p2 {
-    position:absolute
+    
      Font-family: Roboto Condensed;
      Font-style: Regular;
      Font-size: 35px;
      margin:20px 0;
      top:-40px;
      color: #385C0A;
-  
-  margin-left:-70%;
-    
-    
+     margin-left:-78%;  
 }
 .precio{
      position: absolute;
@@ -140,9 +137,9 @@ aside{
 .txt-aside2{
      width: 100%;
      height:1%;
-     display:inline-block;
+     display:flex;
+     flex-direction: ;
      transform: translate(-44%, 100%);
-     border: 1px solid rgb(5, 5, 5);
      font-size: 15px;
      color: #385C0A;  
      margin:30px;  
@@ -157,7 +154,7 @@ aside{
 background: #7E9357;
 border-radius: 28px;
 height: 50px;
-top:20rem;
+top:14rem;
 left:0px;
 border:none;
 min-width:5%;
@@ -175,17 +172,16 @@ min-width:5%;
 }
 /*media quires*/
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 950px) {
  .txt-aside2{
      width: 90%;
-     height:2%
-     display:inline-block;
-     transform: translate(-40%, 100%);
-     border: 1px solid rgb(5, 5, 5);
-     font-size: 10px;
+     height:2%;
+     display:flex;
+
+     font-size: 2vh;
      color: #385C0A;  
-     margin:0;  
-     margin-top:60px;
+     margin:auto;  
+     margin-top:3vh;
      min-width:20%;
      overflow:hidden;
 }
@@ -195,19 +191,21 @@ min-width:5%;
      display: flex;
      flex-direction: column;
      left: 80%;     
+     margin-top: 2vh;
 }
 .precio{
      position: absolute;
-     font-size: 20px;
+     font-size: 4vh;
      color: #385C0A;
      font-weight: bold;
+     
      left: 6%;
 }
   .p2 {
-    position:absolute
+    
      Font-family: Roboto Condensed;
      Font-size: 20px;
-     margin:20px 0;
+     margin-top:7vh;
      top:-40px;
      color: #385C0A;
   left:-20px;
@@ -231,30 +229,26 @@ min-width:5%;
      top: -35%;
 }
 .carito-btn{
-     width:60%;
+     width:30%;
  position:absolute;
 background: #7E9357;
 border-radius: 28px;
 height: 50px;
-
+margin-top:18vh;
 left:0px;
-right.0px;
-transform:translate(-45%, 30%);
-padding:0 20px ;
 border:none;
 min-width:5%;
-
-
 }
+.p1 {
+     position: absolute;
+
+ font-size: 15px;
+  color: white;
+  word-spacing: 1px;
+  
 }  
-   .p1 {
-        position: absolute;
-    left: 0%;
-    font-size: 8px;
-     color: white;
-     
-}
-}
+} 
+/*
 
  @media screen and (max-width: 450px){
         .cicl
